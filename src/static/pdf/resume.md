@@ -67,13 +67,13 @@ ng-zorro-antd）、后端（koa2 + MySQL）、部署（linux + nginx）
 前端：从0到1搭建了angular项目工程，并且产出了
 基于 angular@10.1.5 & ng-zorro-antd@10.0.1 实现的后台管理系统模板 ` https://github.com/YonSunZhen/ng-antd-admin`，其中实现了菜单模块&http service模块（定义统一的响应状态码），便于后续其他项目的快速搭建
 
-后端：采用 nodejs koa2框架，采用MySQL作为数据库，实现 resful api 接口设计 ~~koa2 中间件设计 (比如跨域中间件、全局错误 try 
+后端：采用 nodejs koa2框架，采用MySQL作为数据库，实现 resful api 接口设计
 
 
 
 #### 个人技能
-1、 扎实的 javascript 基础，熟悉常用的ES5、ES6语法
-2、 熟悉前端 vue2 框架，阅读过 vue2 相关源码，比如：响应式设计原理，vuex 实现原理，路由模块实现原理
+1、扎实的 javascript 基础，熟悉常用的ES5、ES6语法
+2、熟悉前端 vue2 框架，阅读过 vue2 相关源码，比如：响应式设计原理，vuex 实现原理
 3、熟悉前端 angular 框架，了解其中 DI（依赖注入）的实现原理
 4、熟悉 typeScript，了解常用的类型用法
 5、熟悉 nodejs，有后端开发和部署经验，阅读过 nodejs koa2 相关源码
