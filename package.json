@@ -1,16 +1,13 @@
 {
-  "name": "simple_cv",
+  "name": "sun",
   "version": "1.0.0",
-  "description": "Simple CV",
+  "description": "",
   "scripts": {
     "dev": "webpack-dev-server --open --inline --progress --config build/webpack.dev.conf.js",
     "prod": "webpack --config build/webpack.prod.conf.js"
   },
-  "keywords": [
-    "Simple",
-    "CV"
-  ],
-  "author": "Simple",
+  "keywords": [],
+  "author": "sun",
   "license": "ISC",
   "devDependencies": {
     "art-template-loader": "^1.4.3",
