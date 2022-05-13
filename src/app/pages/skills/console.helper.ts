@@ -1,4 +1,9 @@
-import { SkillInfo } from '../../@dataSource';
+import { skillValueList } from './skills';
+
+interface SkillInfo {
+  description?: string;
+  skillValue?: string;
+}
 
 /**
  * console log my skill list

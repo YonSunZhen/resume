@@ -1,0 +1,10 @@
+     <h1>教育背景</h1>
+      <ul>
+      {{each data}}
+        <li>
+          <time>{{$value.duration}}</time>
+          <div class="school">{{$value.school}}</div>
+          <div class="major">{{$value.college}} <strong>{{$value.major}}</strong></div>
+        </li>
+      {{/each}}
+      </ul>

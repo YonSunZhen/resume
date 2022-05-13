@@ -5,6 +5,7 @@ const config = require('./config');
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const { TsConfigPathsPlugin } = require('awesome-typescript-loader')
 
 module.exports = {
   mode: isDev ? "development" : "production", // 开发模式
@@ -18,7 +19,10 @@ module.exports = {
     chunkFilename: isDev ? config.dev.chunkFilename : config.prod.chunkFilename
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
+    plugins: [
+      new TsConfigPathsPlugin() // 编译ts config文件定义的别名
+    ]
   },
   module: {
     rules: [
@@ -47,7 +51,7 @@ module.exports = {
       },
       {
         test: /\.ts?$/,
-        use: 'ts-loader',
+        loader: ['babel-loader', 'awesome-typescript-loader'],
         exclude: /node_modules/
       }
     ]

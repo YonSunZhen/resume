@@ -1,7 +1,7 @@
       <div class="avatar"></div>
       <div class="name-title">
-        <div class="name">陈旭东</div>
-        <div class="title">前端工程师</div>
+        <div class="name">{{data.name}}</div>
+        <div class="title">{{data.title}}</div>
       </div>
       <div class="my-blog">
         <a  target="_blank" href="https://simplecodecx.github.io/archives/">

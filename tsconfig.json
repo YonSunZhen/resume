@@ -14,8 +14,8 @@
       "es2015.promise"
     ],
     "paths": {
-      "@dataSource": [
-        "./src/app/@dataSource"
+      "@config": [
+        "./src/config"
       ]
     }
   },
