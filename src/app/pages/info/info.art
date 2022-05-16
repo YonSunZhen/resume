@@ -4,17 +4,17 @@
         <div class="title">{{data.title}}</div>
       </div>
       <div class="my-blog">
-        <a  target="_blank" href="https://simplecodecx.github.io/archives/">
+        <a  target="_blank" href="{{data.blog}}">
            个人博客
         </a>
       </div>
       <ul class="contacts">
-        <a class="contact" target="_blank" href="https://github.com/SimpleCodeCX/cv"><span class="icon icon-github"></span></a>
+        <a class="contact" target="_blank" href="{{data.github}}"><span class="icon icon-github"></span></a>
         <a class="contact" target="_blank"><span class="icon icon-wechat"><span class="wechat-img"></span></span></a>
-        <a class="contact" target="_blank" href="mailto:248200851@qq.com"><span class="icon icon-envelop"></span></a>
+        <a class="contact" target="_blank" href="mailto:{{data.mail}}"><span class="icon icon-envelop"></span></a>
       
       </ul>
 
       <div class="pdf-box">pdf简历: <a href="./static/pdf/CV.pdf" target="_blank"  class="pdf">Sun Yongzhen_CV.pdf</a></div>
-      <div class="photo-number">联系方式: <span>18307682491</span></div>
-      <div class="photo-number">邮箱: <span>1315976441@qq.com</span></div>
+      <div class="photo-number">联系方式: <span>{{data.phone}}</span></div>
+      <div class="photo-number">邮箱: <span>{{data.mail}}</span></div>

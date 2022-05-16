@@ -8,7 +8,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
   devtool: "source-map",
   devServer: {
     contentBase: path.join(__dirname, "../dist/"),
-    port: 8000,
+    port: 8888,
     compress: true,
     hot: true,
     overlay: true,

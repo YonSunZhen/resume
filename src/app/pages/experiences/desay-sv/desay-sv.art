@@ -1,0 +1,40 @@
+      <h1>工作经历</h1>
+      <ul class="works">
+        <li class="work">
+          <div class="target-border">
+            <div class="target-dot"></div>
+          </div>
+          <a href="{{data.companyUrl}}" target="blank" class="company">{{data.companyName}}</a>
+          <span class="job ">{{data.job}}</span>
+          <span class="time ">{{data.duration}}</span>
+          <div class="tech-list big-screen">{{data.skills}}</div>
+          <ul class="description big-screen">
+            {{each data.projects projectItem}}
+              <li>{{#projectItem.name}}
+                {{each projectItem.items item index}}
+                  <div>{{index+1}}) {{#item.desc}}</div>
+                  <ul class="ul-list">
+                    {{each item.detail detail}}
+                      <li>{{#detail}}</li>
+                    {{/each}}
+                  </ul>
+                {{/each}} 
+              </li>
+              <div class="div-black"></div>
+            {{/each}}
+            
+          <ul class="description small-screen">
+            {{each data.projects projectItem}}
+              <li>{{#projectItem.name}}
+                {{each projectItem.items item index}}
+                  <div>{{index+1}}) {{#item.desc}}</div>
+                  <ul class="ul-list">
+                    {{each item.detail detail}}
+                      <li>{{#detail}}</li>
+                    {{/each}}
+                  </ul>
+                {{/each}} 
+              </li>
+              <div class="div-black"></div>
+            {{/each}}
+          </ul>
