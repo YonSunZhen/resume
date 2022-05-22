@@ -7,8 +7,8 @@ import './pages/info/info';
 // page: My education
 import './pages/education/education';
 
-// page: what i can do 
-import './pages/i-can-do/i-can-do';
+// page: personal project
+import './pages/personal-project/personal-project';
 
 // page: My work experience in desay sv 
 import './pages/experiences/desay-sv/desay-sv';

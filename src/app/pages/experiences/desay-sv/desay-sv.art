@@ -22,6 +22,7 @@
               </li>
               <div class="div-black"></div>
             {{/each}}
+          </ul>
             
           <ul class="description small-screen">
             {{each data.projects projectItem}}
@@ -38,3 +39,5 @@
               <div class="div-black"></div>
             {{/each}}
           </ul>
+        </li>
+      </ul>

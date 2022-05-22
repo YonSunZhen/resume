@@ -1,0 +1,46 @@
+      <h1>个人项目</h1>
+      <ul class="icando-container">
+        {{each data projectItem}}
+          <li class="icando-box">
+            <div class="target-border">
+              <div class="target-dot"></div>
+            </div>
+            <a href="{{projectItem.url}}" target="blank" class="title">
+              {{#projectItem.name}}
+              <span class="big-screen">(点击对应github代码)</span>
+              <span class="small-screen">(点击看代码)</span>:
+            </a>
+            <div class="tech-list big-screen">
+              {{each projectItem.skill skill skillIdx}}
+                <a  href="{{skill.url}}" target="_blank">{{skill.name}}</a>
+                {{if skillIdx !== projectItem.skill.length - 1}}
+                  、
+                {{/if}}
+              {{/each}}
+            </div>
+            <ul class="description big-screen">
+              {{each projectItem.item item}}
+                <li>
+                  <a href="{{item.url}}" target="_blank">{{item.title}}</a>: {{#item.desc}}
+                  {{each item.items items itemsIdx}}
+                    <div>{{itemsIdx+1}}) {{#items}}</div>
+                  {{/each}}
+                </li>
+              {{/each}}
+            </ul>
+
+            <ul class="description small-screen">
+              {{each projectItem.item item}}
+                <li>
+                  <a href="{{item.url}}" target="_blank">{{item.title}}</a>: {{#item.desc}}
+                  {{each item.items items itemsIdx}}
+                    <div>{{itemsIdx+1}}) {{#items}}</div>
+                  {{/each}}
+                </li>
+              {{/each}}
+            </ul>
+            
+          </li>
+        {{/each}}
+   
+      </ul>

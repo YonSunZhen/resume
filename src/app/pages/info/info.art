@@ -15,6 +15,6 @@
       
       </ul>
 
-      <div class="pdf-box">pdf简历: <a href="./static/pdf/CV.pdf" target="_blank"  class="pdf">Sun Yongzhen_CV.pdf</a></div>
+      <div class="pdf-box">pdf简历: <a href="{{data.cv.url}}" target="_blank"  class="pdf">{{data.cv.title}}</a></div>
       <div class="photo-number">联系方式: <span>{{data.phone}}</span></div>
       <div class="photo-number">邮箱: <span>{{data.mail}}</span></div>

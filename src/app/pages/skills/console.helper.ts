@@ -1,20 +1,19 @@
-import { skillValueList } from './skills';
 
 interface SkillInfo {
-  description?: string;
-  skillValue?: string;
+  value?: string;
+  desc?: string;
 }
 
 /**
  * console log my skill list
  */
 export function consoleSkills(skillList: Array<SkillInfo>) {
-  let conStr = '\n%cWhat I can do?%c   ( 项目地址：https://github.com/SimpleCodeCX/cv & https://github.com/SimpleCodeCX/cv-server )\n\n';
+  let conStr = '\n%cWhat I can do?%c \n\n';
   conStr += '**********************************************************\n';
   let conCss = ['color:red', 'color:black'];
   skillList.forEach(item => {
-    if (item.description) {
-      conStr += `%c${item.skillValue}%c:\n\n${item.description}\n\n`;
+    if (item.desc) {
+      conStr += `%c${item.value}%c:\n\n${item.desc}\n\n`;
       conCss.push('color:red');
       conCss.push('color:black');
     }
