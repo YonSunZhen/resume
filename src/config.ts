@@ -64,10 +64,10 @@ const CONFIG: Config = {
           name: '<b>百度脑图数据平台</b>',
           items: [
             {
-              desc: '前端基于@angular + typescript技术栈，负责相关前端功能的开发，设计并实现了<b>动态用户权限功能</b>;',
+              desc: '前端开发：基于@angular + typescript技术栈，负责相关前端功能的开发，设计并实现了<b>动态用户权限功能</b>;',
             },
             {
-              desc: '后端基于nodejs koa2 + MySQL技术栈，负责数据表设计，<b>restful</b> api接口开发;'
+              desc: '后端开发：基于nodejs koa2 + MySQL（knex）技术栈，负责相关数据表设计，<b>restful</b> api接口开发;'
             }
           ]
         }

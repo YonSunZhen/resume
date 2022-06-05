@@ -44,17 +44,17 @@ http://yonsunzhen.cn/cv/
 
   3）效率提升：发现现有研发过程中的问题，实现部分模块组件化，封装了基于ECharts的公共方法，便于ECharts报表的快速创建与维护，实现提升研发与运营效率；
 
-  
-  
+
+
 - 车联网微服务数据平台
   1）负责后端微服务接口的开发，nodejs微服务工程的搭建，产出了快速搭建项目工程的npm脚手架 [fission-template-cli](https://www.npmjs.com/package/fission-template-cli)（nodejs + typescript），极大的缩短了重复搭建项目消耗的时间；
-  2）设计并实现vs code插件 [json-go-ts](https://marketplace.visualstudio.com/items?itemName=yonsunzhen.json-go-ts)，配合fission-template-cli脚手架生成的项目工程使用，实现了typescript文件与json文件之间 代码自动补全 跳转到定义 智能诊断&提示，提高了开发效率；
+  2）设计并实现Visual Studio Code插件 [json-go-ts](https://marketplace.visualstudio.com/items?itemName=yonsunzhen.json-go-ts)，配合fission-template-cli脚手架生成的项目工程使用，实现了typescript文件与json文件之间: 代码自动补全、跳转到定义、智能诊断&提示等功能，提高了开发效率；
 
-  
+
 
 - 百度脑图数据平台
-	1）前端基于@angular + typescript技术栈，应用 [kityminder](https://github.com/fex-team/kityminder-core) JS库，负责相关前端功能的开发，设计并实现了动态用户权限功能；
-	2）后端基于nodejs koa2 + MySQL技术栈，负责数据表设计，restful api接口开发；  
+	1）前端开发：基于@angular + typescript技术栈，应用 [kityminder](https://github.com/fex-team/kityminder-core) JS库，负责相关前端功能的开发，设计并实现了动态用户权限功能；
+	2）后端开发：基于nodejs koa2 + MySQL（knex）技术栈，负责相关数据表设计，restful api接口开发；  
 	
 	
 
