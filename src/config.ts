@@ -10,7 +10,7 @@ const CONFIG: Config = {
   baseInfo: {
     title: '前端工程师',
     name: '孙永镇',
-    blog: 'http://yonsunzhen.cn',
+    blog: 'https://segmentfault.com/u/_5bf4c360ce464/articles',
     github: 'https://github.com/YonSunZhen',
     mail: '1315976441@qq.com',
     phone: '18307682491',
@@ -36,18 +36,21 @@ const CONFIG: Config = {
       skills: '@Angular , vue2 ,  typescript , Node(Koa2)',
       projects: [
         {
-          name: '<b>百度脑图数据平台</b>',
+          name: '<b>研发数字化管理平台</b>',
           items: [
             {
-              desc: '前端基于@angular + typescript技术栈，负责相关前端功能的开发，设计并实现了<b>动态用户权限功能</b>;',
+              desc: '前端开发：基于vue2 + element ui技术栈，负责相关前端功能的开发（<b>项目计划管理功能</b>, <b>项目缺陷管理功能</b> ，<b>ECharts报表功能</b>），以及公共组件的开发；'
             },
             {
-              desc: '后端基于nodejs koa2 + MySQL技术栈，负责数据表设计，<b>restful</b> api接口开发;'
+              desc: '代码优化：参与并支持系统交互的设计与讨论，按照需求进行前端页面的优化，提升用户体验；'
+            },
+            {
+              desc: '效率提升：发现现有研发过程中的问题，实现部分模块组件化，封装了基于ECharts的公共方法，便于ECharts报表的快速创建与维护，实现提升研发与运营效率；'
             }
           ]
         },
         {
-          name: '<b>车联网数据微服务平台</b>',
+          name: '<b>车联网微服务数据平台</b>',
           items: [
             {
               desc: '负责后端微服务接口的开发，nodejs微服务工程的搭建，产出了快速搭建项目工程的npm脚手架 <a target="_blank" href="https://www.npmjs.com/package/fission-template-cli" style="text-decoration-line: none; color: blue;">fission-template-cli（nodejs + typescript）</a>，极大的缩短了重复搭建项目消耗的时间；'
@@ -58,16 +61,16 @@ const CONFIG: Config = {
           ]
         },
         {
-          name: '<b>研发信息化管理平台</b>',
+          name: '<b>百度脑图数据平台</b>',
           items: [
             {
-              desc: '前端基于vue2 + element ui技术栈，负责相关前端功能的开发（<b>项目计划管理功能</b>, <b>项目缺陷管理功能</b> ，<b>ECharts报表功能</b>），以及公共组件的开发；'
+              desc: '前端基于@angular + typescript技术栈，负责相关前端功能的开发，设计并实现了<b>动态用户权限功能</b>;',
             },
             {
-              desc: '封装了<b>基于ECharts的公共方法</b>, 便于ECharts报表的快速创建与维护；'
-            }    
+              desc: '后端基于nodejs koa2 + MySQL技术栈，负责数据表设计，<b>restful</b> api接口开发;'
+            }
           ]
-        },
+        }
       ]
     }
   },
