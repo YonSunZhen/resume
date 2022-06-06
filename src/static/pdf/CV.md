@@ -38,23 +38,23 @@ http://yonsunzhen.cn/cv/
 主要工作内容：
 
 - 研发数字化管理平台
-  1）前端开发：基于vue2 + element ui技术栈，负责相关前端功能的开发（项目计划管理功能 项目缺陷管理功能，echarts报表功能）；
+  1）前端开发：基于<b>vue2 + element ui</b>技术栈，负责相关前端功能的开发（项目计划管理功能 项目缺陷管理功能，echarts报表功能）；
 
-  2）代码优化：参与并支持系统交互的设计与讨论，按照需求进行前端页面的优化，提升用户体验；
+  2）代码优化：通过配置 <b>webpack/hard-source-webpack-plugin</b> 插件，实现在磁盘中设置缓存来提升编译加载速度；通过配置<b>nodemon</b> 来监听项目环境变量配置文件的变化，实现系统的热加载 ; 
 
-  3）效率提升：发现现有研发过程中的问题，实现部分模块组件化，封装了基于ECharts的公共方法，便于ECharts报表的快速创建与维护，实现提升研发与运营效率；
+  3）效率提升：发现现有研发过程中的问题，实现部分模块组件化，封装了基于<b>ECharts</b>的公共方法，便于ECharts报表的快速创建与维护，实现提升研发与运营效率；
 
 
 
 - 车联网微服务数据平台
   1）负责后端微服务接口的开发，nodejs微服务工程的搭建，产出了快速搭建项目工程的npm脚手架 [fission-template-cli](https://www.npmjs.com/package/fission-template-cli)（nodejs + typescript），极大的缩短了重复搭建项目消耗的时间；
-  2）设计并实现Visual Studio Code插件 [json-go-ts](https://marketplace.visualstudio.com/items?itemName=yonsunzhen.json-go-ts)，配合fission-template-cli脚手架生成的项目工程使用，实现了typescript文件与json文件之间: 代码自动补全、跳转到定义、智能诊断&提示等功能，提高了开发效率；
+  2）设计并实现Visual Studio Code插件 [json-go-ts](https://marketplace.visualstudio.com/items?itemName=yonsunzhen.json-go-ts)，配合fission-template-cli脚手架生成的项目工程使用，实现了<b>typescript</b>文件与<b>json</b>文件之间: <b>代码自动补全、跳转到定义、智能诊断&提示</b>等功能，提高了开发效率；
 
 
 
 - 百度脑图数据平台
-	1）前端开发：基于@angular + typescript技术栈，应用 [kityminder](https://github.com/fex-team/kityminder-core) JS库，负责相关前端功能的开发，设计并实现了动态用户权限功能；
-	2）后端开发：基于nodejs koa2 + MySQL（knex）技术栈，负责相关数据表设计，restful api接口开发；  
+	1）前端开发：基于<b>@angular + typescript</b>技术栈，应用 [kityminder](https://github.com/fex-team/kityminder-core) JS库，负责相关前端功能的开发，设计并实现了动态用户权限功能；
+	2）后端开发：基于<b>nodejs koa2 + MySQL（knex）</b>技术栈，负责相关数据表设计，<b>restful</b> api接口开发；  
 	
 	
 
@@ -83,11 +83,12 @@ http://yonsunzhen.cn/cv/
 
 
 #### 个人技能
-1、扎实的 javascript 基础，熟悉常用的ES5、ES6语法
-2、熟悉前端 vue2 框架，阅读过 vue2 相关源码，比如：响应式设计原理，vuex 实现原理
-3、熟悉前端 @angular 框架，了解其中 DI（依赖注入）的实现原理
-4、熟悉 typeScript，了解常用的类型用法
-5、熟悉 nodejs，有后端开发和部署经验，阅读过 nodejs koa2 相关源码
-6、了解 React 框架，能进行简单功能的开发
-7、了解Git常用用法 
-8、了解SCSS常用用法
+1、扎实的 <b>javascript</b> 基础，熟悉常用的ES5、ES6语法
+2、熟悉前端  <b>vue2 </b> 框架，阅读过 vue2 相关源码，比如：响应式设计原理，vuex 实现原理
+3、熟悉前端  <b>@angular </b> 框架，了解其中 <b>DI</b>（依赖注入）的实现原理
+4、熟悉  <b>typeScript </b>，了解常用的类型用法
+5、熟悉  <b>nodejs </b>，有后端开发和部署经验，阅读过  <b>nodejs koa2 </b> 相关源码
+6、了解  <b>webpack </b> 常用配置
+7、了解  <b>React </b> 框架，能进行简单功能的开发
+8、了解 <b>Git </b>常用用法 
+9、了解 <b>SCSS </b>常用用法
